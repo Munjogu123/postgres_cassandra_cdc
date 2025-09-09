@@ -8,7 +8,7 @@ from sqlalchemy import create_engine
 
 
 def main():
-    symbols = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "BNBUSDT", "XRPUSDT"]
+    symbols = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "BNBUSDT", "XRPUSDT", "DOGEUSDT", "ADAUSDT", "LTCUSDT", "MATICUSDT", "DOTUSDT"]
 
     fetch_functions = {
         "price_table": lambda s: get_latest_prices(s),
